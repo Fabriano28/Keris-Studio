@@ -1,20 +1,23 @@
-import Card from "/src/components/Card"
+import Card from "../../components/Card"
+import Serv01 from "/src/assets/Serv01.png"
+import Serv02 from "/src/assets/Serv02.png"
+import Serv03 from "/src/assets/Serv03.png"
 
 export default function ServicesSection() {
     const cardsData = [
         {
             title: 'Interactive Education',
-            imageUrl: '/src/assets/Serv01.png',
+            imageUrl: Serv01,
             description: 'Have fun learning with our interactive media',
         },
         {
             title: 'Game Development',
-            imageUrl: '/src/assets/Serv02.png',
+            imageUrl: Serv02,
             description: 'Blow-off some steam with our wide variety of games',
         },
         {
             title: 'IT Consulting',
-            imageUrl: '/src/assets/Serv03.png',
+            imageUrl: Serv03,
             description: 'In need of help with IT projects? You have come to the right place',
         },
     ];

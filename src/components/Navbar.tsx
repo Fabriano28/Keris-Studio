@@ -1,4 +1,5 @@
 import { Link } from "react-Router-dom"
+import Logo from "/src/assets/Logo.png"
 
 export default function Navbar(){
 
@@ -6,7 +7,7 @@ export default function Navbar(){
         <nav className="justify-center items-center p-2 ml-6 mr-6 flex">
             <div className="container mx-auto flex justify-between items-center">
                 <Link to="/" className="text-xl font-bold">
-                    <img src="/src/assets/Logo.png" alt="Logo" className="h-20"></img>
+                    <img src={Logo} alt="Logo" className="h-20"></img>
                 </Link>
 
                 <div className="md:flex space-x-10">

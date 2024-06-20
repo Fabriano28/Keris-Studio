@@ -3,7 +3,7 @@ import Card from "../components/Card"
 import axios from "axios"
 
 export default function Teams(){
-    const [members, setUsers] = useState([]);
+    const [members, setUsers] = useState<any[]>([]);
 
     useEffect(() => {
         const fetchUsers = async () => {
