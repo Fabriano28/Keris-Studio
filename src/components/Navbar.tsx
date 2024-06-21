@@ -1,4 +1,4 @@
-import { Link } from "react-Router-dom"
+import { Link } from "react-router-dom"
 import Logo from "/src/assets/Logo.png"
 
 export default function Navbar(){

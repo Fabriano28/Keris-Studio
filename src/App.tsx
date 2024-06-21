@@ -2,13 +2,13 @@ import {
   BrowserRouter,
   Routes,
   Route,
-} from "react-Router-dom"
+} from "react-router-dom"
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home/Home'
 import About from './pages/About'
 import Services from './pages/Services'
-import Teams from './pages/Teams';
+import Teams from './pages/Teams'
 
 function App() {
 
